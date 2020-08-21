@@ -1,0 +1,43 @@
+.listItems {
+  display: flex;
+  background: rgb(215, 215, 255);
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 20px;
+  justify-content: center;
+  margin: 20px auto;
+  width: 35%;
+  box-shadow: 0px 3px 10px black;
+}
+
+.listItems > li {
+  flex: 1;
+  background: rgb(189, 189, 247);
+  border-radius: 20px;
+  height: 44px;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  list-style: none;
+}
+
+.listItems-delete {
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  float: right;
+  padding: 10px 10px 10px 10px;
+}
+
+.listItems > li:hover {
+  transform: scale(1.01);
+}
+
+.crossed-line {
+  text-decoration: line-through;
+}
+
+.delete {
+  opacity: 0;
+}
